@@ -1,0 +1,128 @@
+@media (max-width:400px) {
+    header .header-text h1{
+        font-size: 25px;
+    }
+    header .header-text p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:767px){
+    main .main-nav nav ul li a{
+        margin-right: 20px; 
+    }
+} 
+
+@media (max-width:497px){
+    main .main-nav nav{
+        flex-direction: column;
+    }
+    
+    main .main-nav nav ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    main .main-nav nav ul li a {
+        margin-right: 0;
+    }
+}
+@media (max-width:375px){
+    main .main-nav {
+        background: #f5f6f7;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:375px){
+    main .main-nav nav button{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #aa9b77;
+    border: none;
+    border-radius: 249px;
+    padding: 14px 118px;
+    margin-top: 11px;
+    }
+}
+
+@media (max-width: 497px){
+   main .main-nav nav ul {
+    padding: 0 25px;
+   } 
+   main .main-nav nav button{
+    margin-top: 6px;
+    border-radius: 34px;
+    padding: 18px 10px;
+    width: 100%;
+   } 
+   main .main-nav{
+    padding-top: 29px;
+    padding-bottom: 29px; 
+   }
+}
+
+@media (max-width:575px){
+    main .main-nav{
+        padding: 23px;
+    }
+}
+
+@media (max-width:991px){
+    header .header-text h1 {
+        font-size: 54px;
+    }
+}
+
+@media (max-width:767px){
+    header .header-text h1 {
+        font-size: 41px;
+    }
+}
+
+@media (max-width:535px){
+    header .header-text h1 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width:498px){
+    header .header-text h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:460px){
+    header .header-text h1 {
+        font-size: 33px;
+    }
+}
+
+@media (max-width:435px){
+    header .header-text h1 {
+        font-size: 31px;
+    }
+}
+
+@media (max-width:435px){
+    header .header-text h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:373px){
+    header .header-text h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:335px){
+    header .header-text h1 {
+        font-size: 22px;
+    }
+}
+
+
